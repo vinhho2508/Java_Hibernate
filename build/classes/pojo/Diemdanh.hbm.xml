@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 15, 2018 11:33:52 AM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="pojo.Diemdanh" table="diemdanh" catalog="diemdanhsv">
+        <composite-id name="id" class="pojo.DiemdanhId">
+            <key-property name="idmonhoc" type="int">
+                <column name="idmonhoc" />
+            </key-property>
+            <key-property name="idsinhvien" type="int">
+                <column name="idsinhvien" />
+            </key-property>
+        </composite-id>
+        <property name="t1" type="java.lang.Integer">
+            <column name="t1" />
+        </property>
+        <property name="t2" type="java.lang.Integer">
+            <column name="t2" />
+        </property>
+        <property name="t3" type="java.lang.Integer">
+            <column name="t3" />
+        </property>
+        <property name="t4" type="java.lang.Integer">
+            <column name="t4" />
+        </property>
+        <property name="t5" type="java.lang.Integer">
+            <column name="t5" />
+        </property>
+        <property name="t6" type="java.lang.Integer">
+            <column name="t6" />
+        </property>
+        <property name="t7" type="java.lang.Integer">
+            <column name="t7" />
+        </property>
+        <property name="t8" type="java.lang.Integer">
+            <column name="t8" />
+        </property>
+        <property name="t9" type="java.lang.Integer">
+            <column name="t9" />
+        </property>
+        <property name="t10" type="java.lang.Integer">
+            <column name="t10" />
+        </property>
+        <property name="t11" type="java.lang.Integer">
+            <column name="t11" />
+        </property>
+        <property name="t12" type="java.lang.Integer">
+            <column name="t12" />
+        </property>
+        <property name="t13" type="java.lang.Integer">
+            <column name="t13" />
+        </property>
+        <property name="t14" type="java.lang.Integer">
+            <column name="t14" />
+        </property>
+        <property name="t15" type="java.lang.Integer">
+            <column name="t15" />
+        </property>
+    </class>
+</hibernate-mapping>

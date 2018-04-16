@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 15, 2018 11:33:52 AM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="pojo.Monhoc" table="monhoc" catalog="diemdanhsv">
+        <id name="idmonhoc" type="int">
+            <column name="idmonhoc" />
+            <generator class="assigned" />
+        </id>
+        <property name="tenmonhoc" type="string">
+            <column name="tenmonhoc" length="45" />
+        </property>
+        <property name="ngaybd" type="date">
+            <column name="ngaybd" length="10" />
+        </property>
+        <property name="ngaykt" type="date">
+            <column name="ngaykt" length="10" />
+        </property>
+        <property name="thu" type="java.lang.Integer">
+            <column name="thu" />
+        </property>
+        <property name="giobd" type="time">
+            <column name="giobd" length="8" />
+        </property>
+        <property name="giokt" type="time">
+            <column name="giokt" length="8" />
+        </property>
+        <property name="phong" type="string">
+            <column name="phong" length="5" />
+        </property>
+    </class>
+</hibernate-mapping>

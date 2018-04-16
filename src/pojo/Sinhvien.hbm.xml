@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 15, 2018 11:33:52 AM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="pojo.Sinhvien" table="sinhvien" catalog="diemdanhsv">
+        <id name="idsinhvien" type="int">
+            <column name="idsinhvien" />
+            <generator class="assigned" />
+        </id>
+        <property name="tensinhvien" type="string">
+            <column name="tensinhvien" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>
